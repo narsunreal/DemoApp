@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         EditText enterNameTextField = (EditText) findViewById(R.id.enterNameTextField);
-
-        Log.i("info", enterNameTextField.getText().toString());
+        //Documento
+        Log.i("information", enterNameTextField.getText().toString());
 
         Toast.makeText(this, enterNameTextField.getText().toString(), Toast.LENGTH_LONG).show();
 
